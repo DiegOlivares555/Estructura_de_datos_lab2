@@ -50,7 +50,9 @@ void * firstList(List * list) {
 }
 
 void * nextList(List * list) {
-    return NULL;
+    if(list->current = NULL || list -> current -> next == NULL){
+        
+    }
 }
 
 // 3. Programe las funciones void * lastList(List * list) y void * prevList(List * list).
@@ -58,6 +60,7 @@ void * nextList(List * list) {
 //   - La segunda función retorna el dato del nodo anterior a current y actualiza el current para que apunte a ese nodo.
 
 void * lastList(List * list) {
+    
     return NULL;
 }
 

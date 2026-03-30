@@ -130,3 +130,13 @@ Mon Mar 30 02:17:38 AM UTC 2026:
  tests:  10|2
 total_score: 40/60
 1623421
+Mon Mar 30 02:24:12 AM UTC 2026: 
+ list.c | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+Compilation failed
+In file included from test.c:5:
+list.c: In function ‘pushCurrent’:
+list.c:103:39: error: lvalue required as left operand of assignment
+  103 |     if (list == NULL || list->current = NULL) return;
+      |                                       ^
+bdaba04

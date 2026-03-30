@@ -37,3 +37,18 @@ list.c:56:1: error: control reaches end of non-void function [-Werror=return-typ
       | ^
 cc1: all warnings being treated as errors
 900605f
+Mon Mar 30 01:51:50 AM UTC 2026: 
+Compilation failed
+In file included from test.c:5:
+list.c: In function ‘nextList’:
+list.c:53:22: error: assignment to ‘Node *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+   53 |     if(list->current = NULL || list -> current -> next == NULL){
+      |                      ^
+list.c:53:8: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+   53 |     if(list->current = NULL || list -> current -> next == NULL){
+      |        ^~~~
+list.c:56:1: error: control reaches end of non-void function [-Werror=return-type]
+   56 | }
+      | ^
+cc1: all warnings being treated as errors
+7f6a848

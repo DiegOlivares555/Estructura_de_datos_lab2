@@ -161,3 +161,9 @@ list.c:130:11: error: unused variable ‘NodoEliminado’ [-Werror=unused-variab
       |           ^~~~~~~~~~~~~
 cc1: all warnings being treated as errors
 7e2ddbb
+Mon Mar 30 02:30:11 AM UTC 2026: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  12|0
+total_score: 60/60
+0cc1ad4

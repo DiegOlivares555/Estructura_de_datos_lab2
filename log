@@ -52,3 +52,14 @@ list.c:56:1: error: control reaches end of non-void function [-Werror=return-typ
       | ^
 cc1: all warnings being treated as errors
 7f6a848
+Mon Mar 30 01:52:54 AM UTC 2026: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:5:
+list.c: In function ‘nextList’:
+list.c:56:1: error: control reaches end of non-void function [-Werror=return-type]
+   56 | }
+      | ^
+cc1: all warnings being treated as errors
+6f47bc4

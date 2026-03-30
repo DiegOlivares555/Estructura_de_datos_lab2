@@ -146,3 +146,18 @@ Mon Mar 30 02:24:27 AM UTC 2026:
  tests:  11|1
 total_score: 50/60
 ea3192b
+Mon Mar 30 02:29:28 AM UTC 2026: 
+ list.c | 17 ++++++++++++++++-
+ 1 file changed, 16 insertions(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:5:
+list.c: In function ‘popCurrent’:
+list.c:131:18: error: ‘aux’ undeclared (first use in this function)
+  131 |     void* data = aux->data;
+      |                  ^~~
+list.c:131:18: note: each undeclared identifier is reported only once for each function it appears in
+list.c:130:11: error: unused variable ‘NodoEliminado’ [-Werror=unused-variable]
+  130 |     Node* NodoEliminado = list->current;
+      |           ^~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+7e2ddbb

@@ -140,3 +140,9 @@ list.c:103:39: error: lvalue required as left operand of assignment
   103 |     if (list == NULL || list->current = NULL) return;
       |                                       ^
 bdaba04
+Mon Mar 30 02:24:27 AM UTC 2026: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  11|1
+total_score: 50/60
+ea3192b
